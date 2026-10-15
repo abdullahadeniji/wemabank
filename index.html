@@ -980,6 +980,16 @@
                     </div>
                 </div>
             </div>
+
+            <div class="footer-mobile-bottom">
+                <p>Wema Bank. All Rights Reserved.</p>
+                <div class="footer-mobile-socials">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
         </section>
 
         <div class="footer-bottom">
@@ -1007,13 +1017,22 @@
             speed: 800,
         }).mount();
 
-        new Splide('#testimonial-slider', {
+       new Splide('#testimonial-slider', {
             type: 'slide',
             fixedWidth: 319,
             gap: 30,
             padding: { left: 40 },
             arrows: false,
             pagination: false,
+            breakpoints: {
+                900: {
+                    fixedWidth: 280,
+                },
+                500: {
+                    fixedWidth: '100%',
+                    padding: { left: 0 },
+                },
+            },
         }).mount();
     </script>
 
