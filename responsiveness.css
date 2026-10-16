@@ -593,7 +593,35 @@
 /* splode respA */
 
     .slide{
-        height: 600px;
+        height: 680px;
+    }
+
+    .slide-text-con{
+        padding: 56px 0px 0px;
+    }
+
+    .slide-text-con h2{
+        font-size: 44px;
+        line-height: 53px;
+        max-width: 260px;
+    }
+
+    .slide-text-con p{
+        margin-top: 20px;
+    }
+
+    .slide-btn-con{
+        margin: 16px 0px;
+    }
+
+    .slide-btn{
+        width: 137px;
+        height: 50px;
+        padding: 12px;
+    }
+
+    .slide-btn div>p{
+        font-size: 14px;
     }
 
     .slide1-content img,
@@ -603,15 +631,15 @@
     .slide5-content img:last-child,
     .slide6-content img:first-child,
     .slide6-content img:last-child{
-        max-height: 260px;
+        max-height: 330px;
     }
 
     .slide4-content img:nth-child(1){
-        max-height: 200px;
+        max-height: 240px;
     }
 
     .slide4-content img:nth-child(2){
-        max-height: 280px;
+        max-height: 360px;
     }
 
     .slide7-content img,
@@ -620,7 +648,8 @@
     .slide10-content img,
     .slide11-content img,
     .slide12-content img{
-        max-height: 340px;
+        max-height: none;
+        margin: 12px 0px 0px;
     }
 
 /* more cards resp */
